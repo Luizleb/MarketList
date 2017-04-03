@@ -12,7 +12,7 @@ import CoreData
 class MainViewController: UIViewController, UITableViewDelegate, UITableViewDataSource{
     
     @IBOutlet weak var mainTableView: UITableView!
-    var itemArray = [Item]()
+    var itemArray : [Item] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
